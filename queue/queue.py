@@ -11,6 +11,7 @@ class Queue:
     def dequeue(self):
         if len(self.storage) < 1:
             return None
+
         return self.storage.pop(0)
 
     def len(self):
