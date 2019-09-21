@@ -5,7 +5,8 @@ as well as its next node in the List."""
 class ListNode:
     def __init__(self, value, prev=None, next=None):
         self.value = value
-        self.next = 
+        self.prev = prev
+        self.next = next
 
     """Wrap the given value in a ListNode and insert it
   after this node. Note that this node could already
